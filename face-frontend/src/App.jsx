@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 
-const BACKEND_URL = "http://127.0.0.1:8000";
+const BACKEND_URL = "https://facedetectionplatform-1.onrender.com";
 
 function safeGet(obj, keys, defaultVal = null) {
   for (const k of keys) {
